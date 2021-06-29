@@ -1,0 +1,16 @@
+{
+  "name": "volt-design-system-tests",
+  "version": "0.0.0",
+  "description": "Visual regression testing for Volts design system",
+  "scripts": {
+    "capture": "npx storycap http://localhost:6006 --outDir current",
+    "report": "npx reg-cli current reference diff -R report.html -E",
+    "accept": "npx reg-cli current reference diff -R report.html -U",
+    "test": "npm run capture && npm run report"
+  },
+  "dependencies": {
+    "puppeteer": "^10.1.0",
+    "reg-cli": "^0.17.0",
+    "storycap": "^3.0.4"
+  }
+}

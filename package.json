@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "puppeteer": "^10.1.0",
-    "reg-cli": "^0.17.0",
+    "reg-cli": "^0.17.7",
     "storycap": "^3.0.4"
   }
 }

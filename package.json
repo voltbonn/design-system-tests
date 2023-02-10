@@ -9,7 +9,7 @@
     "test": "npm run capture && npm run report"
   },
   "dependencies": {
-    "puppeteer": "^10.1.0",
+    "puppeteer": "^19.6.3",
     "reg-cli": "^0.17.7",
     "storycap": "^3.0.4"
   }

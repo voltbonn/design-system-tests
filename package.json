@@ -11,6 +11,6 @@
   "dependencies": {
     "puppeteer": "^19.6.3",
     "reg-cli": "^0.17.7",
-    "storycap": "^3.0.4"
+    "storycap": "^4.2.0"
   }
 }
